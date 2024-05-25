@@ -1,9 +1,8 @@
 {
-  "name": "spacewrock",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "my-package",
   "scripts": {
-    "start": "nodemon index.js"
+    "build": "babel src -d lib",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Rafu Quichiz",
